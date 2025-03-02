@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: right;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    padding-left: 12px;
+    padding-top: 6px;
+}
+
+nav {
+    display: flex;
+    padding-top: 12px; 
+    width: 40%; 
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    display: flex;
+    width: 275px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.content {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;  
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2022/04/26/03/00/family-7157276_960_720.jpg");
+    background-size: 100%;
+
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: right;
+    position: absolute;
+    bottom: 5px;
+}
