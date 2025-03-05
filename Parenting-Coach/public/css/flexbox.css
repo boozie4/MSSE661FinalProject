@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: right;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    padding-left: 12px;
+    padding-top: 6px;
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+nav {
+    display: flex;
+    padding-top: 12px; 
+    width: 40%; 
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    display: flex;
+    width: 275px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.content {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;  
+}
+
+.content h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 12px;
+    padding-top: 5%;
+    padding-bottom: 6px;
+}
+
+p {
+    text-align: center;
+}
+
+.form {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%; 
+}
+
+.login {
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 7%; 
+}
+
+.services {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.services li {
+    font-weight: bold;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2022/04/26/03/00/family-7157276_960_720.jpg");
+    background-size: 100%;
+
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: right;
+    position: absolute;
+    bottom: 5px;
+}
