@@ -21,13 +21,13 @@ app.post('/api/contact', async (req, res) => {
         let transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'YOUR_EMAIL@gmail.com',
-                pass: 'YOUR_APP_PASSWORD'
+                user: 'erik.boozell@gmail.com',
+                pass: 'gnxr hmjq rlfm zmwt'
             }
         });
         await transporter.sendMail({
             from: email,
-            to: 'TARGET_EMAIL@gmail.com', // Change to your target email
+            to: 'erik.boozell@gmail.com', // Change to your target email
             subject: `Contact Form Submission from ${name}`,
             text: message
         });
