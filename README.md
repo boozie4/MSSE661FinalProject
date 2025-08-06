@@ -4,6 +4,11 @@ Regis University
 
 The purpose of this website is to offer resources and services to parents and families who desire support and coaching on improving relationships within the family. There are many different events and situations in life that may be difficult to navigate. Little Steps, Big Growth is here to guide and support your whole family through these hard to navigate situations.
 
+## Project Structure Update (August 2025)
+All static assets (HTML, CSS, JS) are now located in `Parenting-Coach/public`.
+The Express server in the root (`index.js`) serves files from this unified location for seamless operation.
+Duplicate files in the root directory have been removed for clarity and maintainability.
+
 Features of the website:
 
     My account page with secure login

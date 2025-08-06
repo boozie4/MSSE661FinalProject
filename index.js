@@ -1,12 +1,11 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 
-const port = process.env.PORT || 4000; 
+const port = process.env.PORT || 4000;
 
-app.use(express.static('public'));
-
-// app.use('/css', express.static(__dirname + '/public/css')); // http://localhost:4000/css
-// app.use('/js', express.static(__dirname + '/public/src')); // http://localhost:4000/js
+// Serve static files from Parenting-Coach/public
+app.use(express.static(path.join(__dirname, 'Parenting-Coach', 'public')));
 
 app.listen(port, function() {
     console.log('Server started at http://localhost:%s', port);
